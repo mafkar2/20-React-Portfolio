@@ -1,11 +1,11 @@
-import backdrop from '../../assets/cover/cover-image.jpg';
+import coverImage from '../../assets/cover-image.jpg';
 
 function Header(props) {
 
   return (
     <header className="flex-row space-between px-1">
       <h1>Fatemeh Afkar</h1>
-      <img src={backdrop} alt="backdrop"></img>
+      <img src={coverImage} alt="lake image"></img>
       {props.children}
     </header>
   );
